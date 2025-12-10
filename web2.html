@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anjini Pandey — Profile</title>
+
+<style>
+  :root {
+    --bg: #ffecec;
+    --paper: #fff8f6;
+    --accent: #b84b2f;
+    --accent2: #ff8f66;
+    --text: #4a2d2a;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: linear-gradient(180deg, #ffecec, #ffe3db);
+    font-family: system-ui, Arial;
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 950px;
+    background: var(--paper);
+    border-radius: 18px;
+    padding: 28px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    border: 1px solid rgba(0,0,0,0.05);
+  }
+
+  /* HEADER */
+  header {
+    margin-bottom: 25px;
+  }
+
+  h1 {
+    font-size: 30px;
+    color: #7a2f1f;
+    margin-bottom: 6px;
+  }
+
+  header p {
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+
+  .tag {
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    padding: 6px 12px;
+    border-radius: 25px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 6px;
+  }
+
+  /* GRID */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 330px;
+    gap: 20px;
+  }
+
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* SECTIONS */
+  .section {
+    background: rgba(184, 75, 47, 0.05);
+    border-radius: 12px;
+    padding: 18px;
+    border: 1px solid rgba(0,0,0,0.06);
+  }
+
+  h2 {
+    font-size: 20px;
+    color: #7a2f1f;
+    margin-bottom: 10px;
+  }
+
+  .section p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+
+  /* COURSES */
+  .courses ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .courses li {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: rgba(184,75,47,0.10);
+    border: 1px solid rgba(184,75,47,0.15);
+    font-weight: 600;
+  }
+
+  /* QUICK DETAILS */
+  .info {
+    background: #fffdfc;
+    border-radius: 12px;
+    padding: 18px;
+    border: 1px solid rgba(0,0,0,0.06);
+  }
+
+  .info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #6a2f24;
+  }
+
+  .row {
+    margin: 18px 0;
+  }
+
+  .chip {
+    display: inline-block;
+    padding: 8px 12px;
+    background: rgba(184,75,47,0.12);
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #6b2f25;
+  }
+
+  .val {
+    display: block;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <!-- HEADER -->
+  <header>
+    <h1>Anjini Pandey</h1>
+    <p><strong>Age:</strong> 19 • <strong>Lives:</strong> Delhi</p>
+    <p><strong>B.Tech:</strong> CSE Core — 2nd Year — VIT Vellore</p>
+    <div class="tag">Profile Page</div>
+  </header>
+
+  <div class="grid">
+
+    <!-- LEFT -->
+    <div>
+
+      <!-- ABOUT -->
+      <section class="section">
+        <h2>About</h2>
+
+        <p><strong>Hi, I'm Anjini.</strong> I'm a 19-year-old CSE student at VIT Vellore who enjoys watching movies and series, listening to music, and swimming. I love aesthetically pleasing layouts and calming designs.</p>
+
+        <p>I am currently studying Web Programming and learning how to create responsive and neat webpages. I want to improve my coding skills and later explore UI/UX and front-end development while growing my CS fundamentals.</p>
+      </section>
+
+      <!-- COURSES -->
+      <section class="section courses" style="margin-top:18px;">
+        <h2>My Courses</h2>
+
+        <ul>
+          <li>BCSE203E — Web Programming (ELA)</li>
+          <li>BCSE203E — Web Programming (ETH)</li>
+          <li>BCSE204L — Design & Analysis of Algorithms (TH)</li>
+          <li>BCSE204P — Algorithms Lab (LO)</li>
+          <li>BCSE205L — Computer Architecture & Organization (TH)</li>
+          <li>BCSE304L — Theory of Computation (TH)</li>
+          <li>BECE204L — Microprocessors & Microcontrollers (TH)</li>
+          <li>BECE204P — Microcontrollers Lab (LO)</li>
+          <li>BHUM108L — Urban Community Development (TH)</li>
+          <li>BMAT202L — Probability & Statistics (TH)</li>
+          <li>BMAT202P — Probability Lab (LO)</li>
+          <li>BSTS102P — Quantitative Skills Practice II (SS)</li>
+        </ul>
+      </section>
+
+    </div>
+
+    <!-- RIGHT: QUICK DETAILS -->
+    <aside>
+      <div class="info">
+        <h3>Quick Details</h3>
+
+        <div class="row">
+          <span class="chip">Reg No</span>
+          <span class="val">24BCE0714</span>
+        </div>
+
+        <div class="row">
+          <span class="chip">Age</span>
+          <span class="val">19</span>
+        </div>
+
+        <div class="row">
+          <span class="chip">Lives</span>
+          <span class="val">Delhi</span>
+        </div>
+
+        <div class="row">
+          <span class="chip">Branch</span>
+          <span class="val">CSE Core</span>
+        </div>
+
+        <div class="row">
+          <span class="chip">Year</span>
+          <span class="val">2nd Year</span>
+        </div>
+
+        <div class="row">
+          <span class="chip">Hobbies</span>
+          <span class="val">Watching movies/series, listening to music and swimming</span>
+        </div>
+
+      </div>
+    </aside>
+
+  </div>
+</div>
+
+</body>
+</html>
